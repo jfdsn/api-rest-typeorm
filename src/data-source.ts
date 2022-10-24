@@ -7,7 +7,7 @@ export const AppDataSource = new DataSource({
     host: "localhost",
     port: 5432,
     username: "postgres",
-    password: "",
+    password: "juju23",
     database: "pokedex-typeorm",
     synchronize: true,
     logging: false,
