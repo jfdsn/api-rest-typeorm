@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction, Router} from 'express'
+import * as pokeService from '../Service/pokeService';
 const routes = Router();
-const pokeService = require('../Service/pokeService')
 
 
 
