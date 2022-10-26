@@ -4,11 +4,15 @@ import * as pokeData from '../Data/pokeData';
     return pokeData.getPokemon();
  }
 
-export const getPokemonById = (id : number) => {
-   return pokeData.getPokemonById(id);
+export const getPokemonById = async (id : number) => {
+   const pokeExist = await pokeData.getPokemonById(id);
+   //if(!pokeExist) throw new Error("Id incorreto ou inexistente.");
+   return pokeExist;
 }
 
-export const postPokemon = (newpoke : any) => {
+export const postPokemon = async (newpoke : any) => {
+   //const pokeAlreadyExist = await pokeData.getPokemonByNome(newpoke.nome);
+   //if(pokeAlreadyExist) throw new Error("Pokemon já registrado");
    return pokeData.postPokemon(newpoke);
 }
 

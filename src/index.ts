@@ -22,6 +22,7 @@ AppDataSource.initialize().then(async () => {
     console.log("Here you can setup and run express / fastify / any other framework.")*/
     const app : Application = express();
 
+    app.use(express.json());  
     app.use('/', routes);
     app.listen(3000, () : void => {console.log('App rodando na porta 3000.')});    
 
