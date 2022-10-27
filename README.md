@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-blue"/>
 </p>
 
-Uma segunda versão do Projeto <a href="https://github.com/jfdsn/API-Pokedex">API-Pokedex</a>. O objetivo desse projeto é por em prática o conhecimento sobre API rest usando TypeORM.
+Uma segunda versão do Projeto <a href="https://github.com/jfdsn/API-Pokedex">API-Pokedex</a>. O objetivo desse projeto é pôr em prática o conhecimento sobre API rest usando TypeORM.
 
 ## :hammer: Funcionalidades do projeto
 

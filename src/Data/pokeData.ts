@@ -33,3 +33,7 @@ export const deletePokemonById = async (id : number) => {
     const pokeToDelete = await getPokemonById(id);
     return pokeRepository.remove(pokeToDelete);
 }
+
+export const getPokemonByNome = (nome: string) => {
+    return pokeRepository.findOneBy({nome: nome});
+}
